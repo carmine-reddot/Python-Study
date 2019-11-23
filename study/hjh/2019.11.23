@@ -1,5 +1,5 @@
-int k = 0 
-for i in range(1,10):
-	if(i % 2 = 0)
-		k = k + i  
-print(k)
+int k = 0 			//변수 선언
+for i in range(1,11):		//1부터 10까지
+	if(i % 2 = 0)		//i가 짝수 라면
+		k = k + i  	//K에 더하기
+print(k)			//K출력
