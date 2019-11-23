@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 24 00:22:41 2019
+
+@author: Owner
+"""
+
+# 딕셔너리 쌍 추가, 삭제하기
+a={1:'a'}
+
+a[2] ='b'
+
+a['name']='pey'
+
+a[3] = [1,2,3]
+
+#딕셔너리 요소 삭제하기
+del a[1]
+print(a)
+
+#딕셔너리에서 Key 사용해서 Value 얻기
+grade ={'pey':10,'jilliet':99}
+
+print(" gade = ",grade['pey'])
+
+#Key 리스트 만들기
+a = {'name':'pey','phone':'0119993323','birth':'1118'}
+print(a.keys())
+
+for k in a.keys():
+    print(k)
+
+#dictionary Key 객체를 list로 변환
+print(list(a.keys()))
+
+#value list 만들기
+print(a.values())
+
+#Key,Value 쌍 얻기
+print(a.items())
