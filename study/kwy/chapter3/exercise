@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 27 23:25:28 2019
+
+@author: wykim
+"""
+
+#138p ~ 139p
+
+
+#if문
+a="Life is too short, you need python"
+
+if "wife" in a: print("wife")
+elif "python" in a and "you" not in a:print("python")
+elif "shirt" not in a: print("shirt")
+elif "need" in a: print("need")
+else : print("none")
+
+
+#while
+i=0
+
+while True:
+    i+=1
+    if i<=5:
+        print("*"*i)
+    else:
+        break;
+        
+        
+#for문
+A = [70,60,55,75,95,90,80,80,85,100]
+total = 0
+student = 0
+for point in A:
+    total += point
+    student += 1
+average = total/student
+
+print("평균:%f"%average)
