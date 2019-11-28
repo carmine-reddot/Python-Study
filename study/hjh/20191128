@@ -1,0 +1,4 @@
+str = "1 2 3"
+inte = str.split()
+fin = int(inte[0])+int(inte[1])+int(inte[2])
+print(fin)
